@@ -1,2 +1,2 @@
-# mahboi.github.io
-eternal tire fire
+# Mahboi's GitHub Page
+The eternal tire fire!

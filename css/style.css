@@ -1,0 +1,41 @@
+/* Import system.css from CDN */
+@import url("https://unpkg.com/@sakun/system.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inconsolata", Menlo, Chicago, Geneva;
+  font-size: 12pt;
+}
+
+body {
+  margin: 0;
+}
+
+div.global-menubar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  background-color: black;
+}
+
+ul.global-menubar {
+  border-radius: 10px 10px 0 0;
+  border-bottom: 2px solid;
+
+}
+
+.disabled {
+  color: darkgrey !important;
+  pointer-events: none !important;
+}
+
+.standard-dialog {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
